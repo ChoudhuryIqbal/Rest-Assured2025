@@ -32,5 +32,13 @@ public class DDTests {
 	    	response.then().log().all();	
 	    	Assert.assertEquals(response.getStatusCode(), 200);
 	    }
+	    
+	    @Test(priority = 2,dataProvider="UserNames",dataProviderClass=DataProviders.class)
+	    public void testPostUser(String userName) {
+	    
+	    	Response response=UserEndPoints.deleteUser(userName);
+	    	Assert.assertEquals(response.getStatusCode(), 200);
+	    }
+
 
 }
