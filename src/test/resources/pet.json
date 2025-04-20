@@ -1,0 +1,16 @@
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "defaultCategory"
+  },
+  "name": "defaultName",
+  "photoUrls": ["defaultUrl"],
+  "tags": [
+    {
+      "id": 0,
+      "name": "defaultTag"
+    }
+  ],
+  "status": "defaultStatus"
+}
