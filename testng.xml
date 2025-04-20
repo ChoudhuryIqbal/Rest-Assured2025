@@ -10,6 +10,7 @@
 		<classes>
 			<class name="api.test.UserTests" />
 			<class name="api.test.DDTests" />
+			<class name="api.test.UserTestsProperties"></class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
